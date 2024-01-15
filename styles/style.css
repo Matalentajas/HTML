@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#principal{
+    height: 130vh;
+    background: radial-gradient(78.22% 64.21% at 42.13% 39.1%, #D40280 0%, #0C1113 100%);
+}
+
+#superior{
+display: flex;
+justify-content: space-between;
+color: white;
+}
+
+#titulo{
+    border-radius: 0px 0px 50px 0px;
+    background: linear-gradient(123deg, #FFF 0%, #710148 88.19%);
+    backdrop-filter: blur(5px);
+    height: 400px;
+    width: 900px;
+    padding: 80px;
+    gap: 40px;
+}
+
+#titulo img{
+    width: 65%;
+}
+
+#titulo h1{
+    font-size: 40px;
+}
+
+/* DERECHA :) */
+
+#formu{
+    padding: 80px;
+}
+
+#formu img{
+    width: 30%;
+    
+}
+
+#formu h1{
+    font-size: 40px;
+}
+
+#campos{
+    display: flex;
+    justify-content: space-between;
+}
+
+#campos #altura{   
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+
+#campos #peso{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#campos #altura input, #campos #peso input{
+    width: 40%;
+    padding: 10px;
+    border-radius: 15px;
+    background: #FFF;
+    border: none;
+    outline: none;
+}
+
+button{
+    width: 166px;
+    height: 50px;
+    border-radius: 12px;
+    background: #4D4D4D;
+    box-shadow: 4px 8px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#resultado{
+    border-radius: 20px;
+    background: radial-gradient(98deg, #E30088 0%, rgba(0,0,0,0.19)100%);
+    box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.25);
+    width: 70%;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+#inferior{
+    display: flex;
+    justify-content: space-around;
+
+}
+.caja{
+    width: 452px;
+    height: 215px;
+    border-radius: 20px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 18px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.div_icon{
+    border: 2px solid red;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#i1{
+    background-color: #FF9292;
+}
+#i2{
+   background-color: #FFE192; 
+}
+#i3{
+    background-color: #304c76;
+}
